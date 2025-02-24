@@ -1,4 +1,3 @@
-
 # Ветки
 
 1. Репозиторий содержит ветки pa1, pa2 и т.д. с описанием заданий в файле README.md.
@@ -23,4 +22,3 @@ git remote rename origin upstream
 git remote add origin git@github.com:your-name/ds-2025-labs.git
 
 git push origin main
-```
