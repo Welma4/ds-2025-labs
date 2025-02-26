@@ -13,6 +13,13 @@
 *.userosscache
 *.sln.docstates
 
+# Exclude all .vs files and directories
+.vs/
+
+# Exclude specific problematic file patterns
+*.vsidx
+
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 

@@ -1,3 +1,7 @@
+using StackExchange.Redis;
+using Valuator.ViewModel;
+using Valuator.Pages;
+using Valuator.Services;
 namespace Valuator;
 
 public class Program
@@ -6,12 +10,14 @@ public class Program
     {
         var builder = WebApplication.CreateBuilder(args);
 
-        // Add services to the container.
         builder.Services.AddRazorPages();
+        builder.Services.AddSingleton<IConnectionMultiplexer>(options =>
+            ConnectionMultiplexer.Connect(("127.0.0.1:6379")));
+        builder.Services.AddScoped<RedisStorage>();
+        builder.Services.AddTransient<TextAnalyseService>();
 
         var app = builder.Build();
 
-        // Configure the HTTP request pipeline.
         if (!app.Environment.IsDevelopment())
         {
             app.UseExceptionHandler("/Error");

@@ -1,36 +1,42 @@
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using StackExchange.Redis;
+using Valuator.Services;
+using Valuator.ViewModel;
 
 namespace Valuator.Pages;
 
 public class IndexModel : PageModel
 {
     private readonly ILogger<IndexModel> _logger;
-
-    public IndexModel(ILogger<IndexModel> logger)
+    private readonly RedisStorage _formTextStorage;
+    private readonly TextAnalyseService _textAnalyseService;
+    public IndexModel(ILogger<IndexModel> logger, RedisStorage formTextStorage, TextAnalyseService textAnalyseService)
     {
         _logger = logger;
+        _formTextStorage = formTextStorage;
+        _textAnalyseService = textAnalyseService;
     }
 
-    public void OnGet()
-    {
+    public void OnGet() { }
 
-    }
-
-    public IActionResult OnPost(string text)
+    public async Task<IActionResult> OnPost(string text)
     {
         _logger.LogDebug(text);
 
         string id = Guid.NewGuid().ToString();
 
         string textKey = "TEXT-" + id;
-        // TODO: (pa1) сохранить в БД (Redis) text по ключу textKey
+        await _formTextStorage.AddKeyValue(textKey, text);
 
         string rankKey = "RANK-" + id;
-        // TODO: (pa1) посчитать rank и сохранить в БД (Redis) по ключу rankKey
+        double rank = _textAnalyseService.CalculateRank(text);
+        await _formTextStorage.AddKeyValue(rankKey, rank.ToString());
 
         string similarityKey = "SIMILARITY-" + id;
-        // TODO: (pa1) посчитать similarity и сохранить в БД (Redis) по ключу similarityKey
+        int similarity = await _textAnalyseService.CalculateSimilarityAsync(text, textKey, _formTextStorage);
+        await _formTextStorage.AddKeyValue(similarityKey, similarity.ToString());
 
         return Redirect($"summary?id={id}");
     }
