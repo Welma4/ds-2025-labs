@@ -1,19 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.Extensions.Logging;
+﻿using Microsoft.AspNetCore.Mvc.RazorPages;
+using Valuator.Storage;
 using Valuator.ViewModel;
 
 namespace Valuator.Pages;
 public class SummaryModel : PageModel
 {
     private readonly ILogger<SummaryModel> _logger;
-    private readonly RedisStorage _formTextStorage;
+    private readonly IRedisStorage _formTextStorage;
 
-    public SummaryModel(ILogger<SummaryModel> logger, RedisStorage formTextStorage)
+    public SummaryModel(ILogger<SummaryModel> logger, IRedisStorage formTextStorage)
     {
         _logger = logger;
         _formTextStorage = formTextStorage;
@@ -26,7 +21,6 @@ public class SummaryModel : PageModel
     {
         _logger.LogDebug(id);
 
-        // TODO: (pa1) проинициализировать свойства Rank и Similarity значениями из БД (Redis)
         string StRank = await _formTextStorage.GetValue("RANK-" + id);
         Rank = double.TryParse(StRank, out double rankValue) ? rankValue : 0.0;
 

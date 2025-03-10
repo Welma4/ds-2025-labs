@@ -1,9 +1,10 @@
 ﻿using StackExchange.Redis;
 using System.Text.Json;
+using Valuator.Storage;
 
 namespace Valuator.ViewModel
 {
-    public class RedisStorage 
+    public class RedisStorage : IRedisStorage
     {
         private readonly IConnectionMultiplexer _redis;
 
@@ -24,17 +25,13 @@ namespace Valuator.ViewModel
             return result.IsNullOrEmpty ? "" : result.ToString();
         }
 
-        public async Task<string?> FindKeyByValueAsync(string value, string existingKey)
+        public async Task<string?> FindKeyByValueAsync(string value)
         {
             var db = _redis.GetDatabase();
             var server = _redis.GetServer(_redis.GetEndPoints().First());
 
             foreach (RedisKey key in server.Keys(pattern: "TEXT-*"))
             {
-                if (key.ToString() == existingKey)
-                {
-                    continue;
-                }
                 var keyValue = await db.StringGetAsync(key);
                 if (keyValue.ToString() == value)
                 {

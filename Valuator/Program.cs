@@ -2,6 +2,7 @@ using StackExchange.Redis;
 using Valuator.ViewModel;
 using Valuator.Pages;
 using Valuator.Services;
+using Valuator.Storage;
 namespace Valuator;
 
 public class Program
@@ -13,7 +14,7 @@ public class Program
         builder.Services.AddRazorPages();
         builder.Services.AddSingleton<IConnectionMultiplexer>(options =>
             ConnectionMultiplexer.Connect(("127.0.0.1:6379")));
-        builder.Services.AddScoped<RedisStorage>();
+        builder.Services.AddScoped<IRedisStorage, RedisStorage>(); // чем отличается
         builder.Services.AddTransient<TextAnalyseService>();
 
         var app = builder.Build();
