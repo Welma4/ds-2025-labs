@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\projects\\RP\\ds-2025-pa1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8EFA68AE-F1B6-4CEC-A755-34DBED630EDB}|nginx{8EFA68AE-F1B6-4CEC-A755-34DBED630EDB}|C:\\projects\\RP\\ds-2025-pa1\\nginx\\conf\\nginx.conf||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{8EFA68AE-F1B6-4CEC-A755-34DBED630EDB}|nginx{8EFA68AE-F1B6-4CEC-A755-34DBED630EDB}|solutionrelative:nginx\\conf\\nginx.conf||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB3B7AF3-09CB-8246-6EE6-CF385AAB4AA1}|Valuator\\Valuator.csproj|c:\\projects\\rp\\ds-2025-pa1\\valuator\\docker-compose.yaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{BB3B7AF3-09CB-8246-6EE6-CF385AAB4AA1}|Valuator\\Valuator.csproj|solutionrelative:valuator\\docker-compose.yaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB3B7AF3-09CB-8246-6EE6-CF385AAB4AA1}|Valuator\\Valuator.csproj|c:\\projects\\rp\\ds-2025-pa1\\valuator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB3B7AF3-09CB-8246-6EE6-CF385AAB4AA1}|Valuator\\Valuator.csproj|solutionrelative:valuator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BB3B7AF3-09CB-8246-6EE6-CF385AAB4AA1}|Valuator\\Valuator.csproj|c:\\projects\\rp\\ds-2025-pa1\\valuator\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BB3B7AF3-09CB-8246-6EE6-CF385AAB4AA1}|Valuator\\Valuator.csproj|solutionrelative:valuator\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,20 +35,24 @@
       "RelativeMoniker": "D:0:0:{BB3B7AF3-09CB-8246-6EE6-CF385AAB4AA1}|Valuator\\Valuator.csproj|solutionrelative:valuator\\storage\\redisstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB3B7AF3-09CB-8246-6EE6-CF385AAB4AA1}|Valuator\\Valuator.csproj|c:\\projects\\rp\\ds-2025-pa1\\valuator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB3B7AF3-09CB-8246-6EE6-CF385AAB4AA1}|Valuator\\Valuator.csproj|solutionrelative:valuator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BB3B7AF3-09CB-8246-6EE6-CF385AAB4AA1}|Valuator\\Valuator.csproj|c:\\projects\\rp\\ds-2025-pa1\\valuator\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BB3B7AF3-09CB-8246-6EE6-CF385AAB4AA1}|Valuator\\Valuator.csproj|solutionrelative:valuator\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB3B7AF3-09CB-8246-6EE6-CF385AAB4AA1}|Valuator\\Valuator.csproj|c:\\projects\\rp\\ds-2025-pa1\\valuator\\docker-compose.yaml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{BB3B7AF3-09CB-8246-6EE6-CF385AAB4AA1}|Valuator\\Valuator.csproj|solutionrelative:valuator\\docker-compose.yaml||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BB3B7AF3-09CB-8246-6EE6-CF385AAB4AA1}|Valuator\\Valuator.csproj|c:\\projects\\rp\\ds-2025-pa1\\valuator\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{BB3B7AF3-09CB-8246-6EE6-CF385AAB4AA1}|Valuator\\Valuator.csproj|solutionrelative:valuator\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CD6C428-C914-4737-AD17-D5F023EA27ED}|scripts{1CD6C428-C914-4737-AD17-D5F023EA27ED}|C:\\projects\\RP\\ds-2025-pa1\\scripts\\stop.bat||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{1CD6C428-C914-4737-AD17-D5F023EA27ED}|scripts{1CD6C428-C914-4737-AD17-D5F023EA27ED}|solutionrelative:scripts\\stop.bat||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CD6C428-C914-4737-AD17-D5F023EA27ED}|scripts{1CD6C428-C914-4737-AD17-D5F023EA27ED}|C:\\projects\\RP\\ds-2025-pa1\\scripts\\start.bat||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{1CD6C428-C914-4737-AD17-D5F023EA27ED}|scripts{1CD6C428-C914-4737-AD17-D5F023EA27ED}|solutionrelative:scripts\\start.bat||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EFA68AE-F1B6-4CEC-A755-34DBED630EDB}|nginx{8EFA68AE-F1B6-4CEC-A755-34DBED630EDB}|C:\\projects\\RP\\ds-2025-pa1\\nginx\\conf\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8EFA68AE-F1B6-4CEC-A755-34DBED630EDB}|nginx{8EFA68AE-F1B6-4CEC-A755-34DBED630EDB}|solutionrelative:nginx\\conf\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,19 +86,56 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IRedisStorage.cs",
-              "DocumentMoniker": "C:\\projects\\RP\\ds-2025-pa1\\Valuator\\Storage\\IRedisStorage.cs",
-              "RelativeDocumentMoniker": "Valuator\\Storage\\IRedisStorage.cs",
-              "ToolTip": "C:\\projects\\RP\\ds-2025-pa1\\Valuator\\Storage\\IRedisStorage.cs",
-              "RelativeToolTip": "Valuator\\Storage\\IRedisStorage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T07:57:03.427Z"
+              "DocumentIndex": 10,
+              "Title": "stop.bat",
+              "DocumentMoniker": "C:\\projects\\RP\\ds-2025-pa1\\scripts\\stop.bat",
+              "RelativeDocumentMoniker": "scripts\\stop.bat",
+              "ToolTip": "C:\\projects\\RP\\ds-2025-pa1\\scripts\\stop.bat",
+              "RelativeToolTip": "scripts\\stop.bat",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAG7SURBVDhPzZTNSxtBHEBfPGipJ\u002B2iGFBjzJqu4nda0EO99CaCeBOEQlsotCCUakMO6sWrBz8QlZaWInjxXyjtQbNKwCqYUGObRKIosfFSKTazcXsQQWZXJOqhD4aB37x5cxu4TUzTlEc3xhHwD8bBdMkH18ORyLtOrLOr23YH00XAP2BmMplbWQH/gJl34WELuweHfF5eYz91JB9dim3wz8lf9G8Rfib2\u002BH18TGQ7xnJog1T66rBtMByNkzpMc3qaxdegkc0a7Ozuk9w7kFULtsEmzYNhGHhc5VRVOPG6KzEMQb2myqoF22A4GkOIDOGtH2zHdtiIRBFC8DUYklULtsGyUoWyEgUhBF\u002BWVskaBiVKEW2tjbJqwTZYqhTT0dZKg6ZypyCfWq\u002Bbx4/aiSeTvPIPsb4Z5lc6LV\u002BDy4LnVJY76e3pxFtdxeS7j8x8mKeuxsP49Cxz7z/JOlwVvEitWk1djYeXz55Qr91HVd2yArkEI9\u002B3WA2FGJuYIqivENR1WYFcgk/7eul/8RxdX\u002BHt635GR4ZlBXIJKveK8bU0s7gwz8MHPgoL78oKnH1fb\u002BLgyPnHscdMyJP/j39Wh9oGPXeiTgAAAABJRU5ErkJggg==",
+              "WhenOpened": "2025-03-12T07:11:26.829Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
+              "Title": "start.bat",
+              "DocumentMoniker": "C:\\projects\\RP\\ds-2025-pa1\\scripts\\start.bat",
+              "RelativeDocumentMoniker": "scripts\\start.bat",
+              "ToolTip": "C:\\projects\\RP\\ds-2025-pa1\\scripts\\start.bat",
+              "RelativeToolTip": "scripts\\start.bat",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAG7SURBVDhPzZTNSxtBHEBfPGipJ\u002B2iGFBjzJqu4nda0EO99CaCeBOEQlsotCCUakMO6sWrBz8QlZaWInjxXyjtQbNKwCqYUGObRKIosfFSKTazcXsQQWZXJOqhD4aB37x5cxu4TUzTlEc3xhHwD8bBdMkH18ORyLtOrLOr23YH00XAP2BmMplbWQH/gJl34WELuweHfF5eYz91JB9dim3wz8lf9G8Rfib2\u002BH18TGQ7xnJog1T66rBtMByNkzpMc3qaxdegkc0a7Ozuk9w7kFULtsEmzYNhGHhc5VRVOPG6KzEMQb2myqoF22A4GkOIDOGtH2zHdtiIRBFC8DUYklULtsGyUoWyEgUhBF\u002BWVskaBiVKEW2tjbJqwTZYqhTT0dZKg6ZypyCfWq\u002Bbx4/aiSeTvPIPsb4Z5lc6LV\u002BDy4LnVJY76e3pxFtdxeS7j8x8mKeuxsP49Cxz7z/JOlwVvEitWk1djYeXz55Qr91HVd2yArkEI9\u002B3WA2FGJuYIqivENR1WYFcgk/7eul/8RxdX\u002BHt635GR4ZlBXIJKveK8bU0s7gwz8MHPgoL78oKnH1fb\u002BLgyPnHscdMyJP/j39Wh9oGPXeiTgAAAABJRU5ErkJggg==",
+              "WhenOpened": "2025-03-12T07:03:22.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\projects\\RP\\ds-2025-pa1\\nginx\\conf\\docker-compose.yml",
+              "RelativeDocumentMoniker": "nginx\\conf\\docker-compose.yml",
+              "ToolTip": "C:\\projects\\RP\\ds-2025-pa1\\nginx\\conf\\docker-compose.yml",
+              "RelativeToolTip": "nginx\\conf\\docker-compose.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-03-10T08:26:05.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "nginx.conf",
+              "DocumentMoniker": "C:\\projects\\RP\\ds-2025-pa1\\nginx\\conf\\nginx.conf",
+              "RelativeDocumentMoniker": "nginx\\conf\\nginx.conf",
+              "ToolTip": "C:\\projects\\RP\\ds-2025-pa1\\nginx\\conf\\nginx.conf",
+              "RelativeToolTip": "nginx\\conf\\nginx.conf",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-10T08:26:02.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\projects\\RP\\ds-2025-pa1\\Valuator\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "Valuator\\Pages\\Index.cshtml",
@@ -94,7 +147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "docker-compose.yaml",
               "DocumentMoniker": "C:\\projects\\RP\\ds-2025-pa1\\Valuator\\docker-compose.yaml",
               "RelativeDocumentMoniker": "Valuator\\docker-compose.yaml",
@@ -106,7 +159,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "TextAnalyseService.cs",
               "DocumentMoniker": "C:\\projects\\RP\\ds-2025-pa1\\Valuator\\Services\\TextAnalyseService.cs",
               "RelativeDocumentMoniker": "Valuator\\Services\\TextAnalyseService.cs",
@@ -118,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "RedisStorage.cs",
               "DocumentMoniker": "C:\\projects\\RP\\ds-2025-pa1\\Valuator\\Storage\\RedisStorage.cs",
               "RelativeDocumentMoniker": "Valuator\\Storage\\RedisStorage.cs",
@@ -130,20 +183,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "C:\\projects\\RP\\ds-2025-pa1\\Valuator\\Pages\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "Valuator\\Pages\\Index.cshtml.cs",
               "ToolTip": "C:\\projects\\RP\\ds-2025-pa1\\Valuator\\Pages\\Index.cshtml.cs",
               "RelativeToolTip": "Valuator\\Pages\\Index.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T07:37:34.626Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-26T07:37:34.626Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\projects\\RP\\ds-2025-pa1\\Valuator\\Program.cs",
+              "RelativeDocumentMoniker": "Valuator\\Program.cs",
+              "ToolTip": "C:\\projects\\RP\\ds-2025-pa1\\Valuator\\Program.cs",
+              "RelativeToolTip": "Valuator\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T09:18:28.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IRedisStorage.cs",
+              "DocumentMoniker": "C:\\projects\\RP\\ds-2025-pa1\\Valuator\\Storage\\IRedisStorage.cs",
+              "RelativeDocumentMoniker": "Valuator\\Storage\\IRedisStorage.cs",
+              "ToolTip": "C:\\projects\\RP\\ds-2025-pa1\\Valuator\\Storage\\IRedisStorage.cs",
+              "RelativeToolTip": "Valuator\\Storage\\IRedisStorage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T07:57:03.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Summary.cshtml.cs",
               "DocumentMoniker": "C:\\projects\\RP\\ds-2025-pa1\\Valuator\\Pages\\Summary.cshtml.cs",
               "RelativeDocumentMoniker": "Valuator\\Pages\\Summary.cshtml.cs",
@@ -155,19 +231,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\projects\\RP\\ds-2025-pa1\\Valuator\\Program.cs",
-              "RelativeDocumentMoniker": "Valuator\\Program.cs",
-              "ToolTip": "C:\\projects\\RP\\ds-2025-pa1\\Valuator\\Program.cs",
-              "RelativeToolTip": "Valuator\\Program.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAuwBkAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T09:18:28.945Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\projects\\RP\\ds-2025-pa1\\Valuator\\appsettings.json",
               "RelativeDocumentMoniker": "Valuator\\appsettings.json",
